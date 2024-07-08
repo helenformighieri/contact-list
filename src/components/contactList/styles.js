@@ -34,8 +34,12 @@ export const ContactCardContent = styled.div`
     box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px;
 
-    p{
-    
+    h3{
+        margin-top: 0;
+    }
+
+    span{
+        font-weight: bold;
     }
 `
 
@@ -57,8 +61,8 @@ export const EditInput = styled.input`
     margin-bottom: 5px;
 `
 export const DeleteButton = styled.button`
-    background-color: red;
     color: white;
+    background-color: red;
     border: none;
     padding: 5px 20px;
     border-radius: 4px;

@@ -57,8 +57,8 @@ const ContactList = ({ contacts, onUpdateContact, onDeleteContact }) => {
                     ) : (
                         <ContactCardContent>
                             <h3>{contact.name}</h3>
-                            <p>Email: {contact.email}</p>
-                            <p>Phone: {contact.phone}</p>
+                            <p><span>Email:</span> {contact.email}</p>
+                            <p><span>Phone:</span> {contact.phone}</p>
                             <EditButton onClick={() => handleEdit(index)}>Edit</EditButton>
                             <DeleteButton onClick={() => onDeleteContact(index)}>Delete</DeleteButton>
                         </ContactCardContent>
